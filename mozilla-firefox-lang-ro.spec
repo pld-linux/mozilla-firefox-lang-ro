@@ -1,12 +1,12 @@
 %define		_lang		ro
 Summary:	Romanian resources for Mozilla-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	2.0.0.9
+Version:	2.0.0.10
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	5d1ed0e449955e155d768ae147c808fc
+# Source0-md5:	ace756aba4a1aa18f7001ab9a8ee395a
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
