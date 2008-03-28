@@ -2,7 +2,7 @@
 Summary:	Romanian resources for Mozilla-firefox
 Name:		mozilla-firefox-lang-%{_lang}
 Version:	2.0.0.13
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
