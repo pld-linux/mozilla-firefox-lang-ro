@@ -2,12 +2,12 @@
 Summary:	Romanian resources for Firefox
 Summary(pl.UTF-8):	Rumuńskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.5
+Version:	3.0.7
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	15315d2e6fb69aef4e1c132d8fd81298
+# Source0-md5:	58d8087ec50fa1f26da3b08d738f4b26
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
